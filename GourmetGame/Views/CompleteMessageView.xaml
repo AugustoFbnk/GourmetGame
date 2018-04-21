@@ -1,0 +1,18 @@
+﻿<Window x:Class="GourmetGame.Views.CompleteMessageView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GourmetGame.Views"
+        mc:Ignorable="d"
+        Title="CompleteMessageView" Height="200" Width="350" 
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lbComplete" HorizontalAlignment="Center" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Height="37" VerticalAlignment="Top" Margin="0,10,0,0"/>
+        <TextBox x:Name="tbComida" HorizontalAlignment="Center" Height="25" Margin="0,0" TextWrapping="Wrap" Width="304"/>
+        <Button x:Name="btOk" Content="Ok" Margin="20,0,0,20" Height="37" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75" Click="btOk_Click"/>
+        <Button x:Name="btCancel" Content="Cancelar" Margin="0,0,20,20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="37" Width="75" Click="btCancel_Click"/>
+
+    </Grid>
+</Window>
